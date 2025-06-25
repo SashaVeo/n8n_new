@@ -5,7 +5,7 @@ services:
     plan: starter
     repo: https://github.com/sashaVeo/n8n_new
     branch: master
-    dockerfilePath: docker/images/n8n/Dockerfile
+    dockerfilePath: dockerimages/n8n/Dockerfile
     envVars:
       - key: GENERIC_TIMEZONE
         value: Europe/Moscow
